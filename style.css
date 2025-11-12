@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px;
+    background:  linear-gradient(135deg, #7979b9, #685284);
+}
+
+h3{
+    color: rgb(169, 87, 169);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.container{
+   margin: 20px;
+   padding: 20px;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px; 
+     background: linear-gradient(135deg, #8686aa, #bfa1e6);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#homeScore, #guestScore{
+    border: 1px solid #7b7171;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: azure;
+}
+
+
+  
+.buttons {
+    margin-top: 15px;        
+}
+
+.buttons button {
+    margin: 5px;           
+    padding: 10px 15px;       
+    font-size: 16px;         
+    border: none;             
+    border-radius: 10px;      
+     background-color: #576957; 
+    color: azure;          
+    cursor: pointer;  
+     transition: all 0.2s ease;      
+}
+
+.buttons button:hover{
+     background-color: #3d643d; 
+     transform: scale(1.05);
+}
+
+#resetButton{
+     margin: 5px;           
+    padding: 10px 15px;       
+    font-size: 16px;         
+    border: none;             
+    border-radius: 10px;      
+     background-color: #576957; 
+    color: azure;          
+    cursor: pointer;  
+     transition: all 0.2s ease
+}
+.guest .buttons button {
+    margin: 5px;           
+    padding: 10px 15px;       
+    font-size: 16px;         
+    border: none;             
+    border-radius: 10px;      
+    background-color: #3d643d; 
+    color: azure;          
+    cursor: pointer; 
+    transition: all 0.2s ease;
+}
+
+
+.guest .buttons button:hover {
+    background-color: #576957;   
+    transform: scale(1.05);
+}
+
+.guest #resetButton{
+     margin: 5px;           
+    padding: 10px 15px;       
+    font-size: 16px;         
+    border: none;             
+    border-radius: 10px;      
+    background-color: #3d643d; 
+    color: azure;          
+    cursor: pointer; 
+    transition: all 0.2s ease;
+}
