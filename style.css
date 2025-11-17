@@ -13,6 +13,21 @@ h3{
 
 }
 
+
+
+#homeScore, #guestScore {
+background-color: rgb(169, 169, 194);
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: bold;
+font-size: 90px;
+line-height: 127px;
+text-align: center;
+
+}
+
+
+
 .container{
    margin: 20px;
    padding: 20px;
@@ -30,7 +45,7 @@ h3{
     border: 1px solid #7b7171;
     padding: 20px;
     margin: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     color: azure;
 }
 
@@ -57,7 +72,7 @@ h3{
      transform: scale(1.05);
 }
 
-#resetButton{
+#GresetButton, #resetButton{
      margin: 5px;           
     padding: 10px 15px;       
     font-size: 16px;         

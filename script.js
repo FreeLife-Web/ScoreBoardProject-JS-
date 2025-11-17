@@ -25,3 +25,33 @@ reset.addEventListener("click", function() {
     score = 0;
     scoreBoard.textContent = score;
 })
+
+
+let leaderBoard = document.getElementById("guestScore"); 
+let gscore1 = document.getElementById("guestAdd1");
+let gscore2 = document.getElementById("guestAdd2");
+let gscore3 = document.getElementById("guestAdd3");
+let greset = document.getElementById("GresetButton");
+
+let gscore = 0;
+
+gscore1.addEventListener("click", function() {
+    gscore += 1;
+    leaderBoard.textContent = gscore;
+})          
+
+gscore2.addEventListener("click", function() {
+    gscore += 2;
+    leaderBoard.textContent = gscore;
+})
+
+ gscore3.addEventListener("click", function() {
+    gscore += 3;
+    leaderBoard.textContent = gscore;
+})
+
+
+greset.addEventListener("click", function() {
+    gscore = 0;
+    leaderBoard.textContent = gscore;
+})
